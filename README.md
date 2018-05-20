@@ -1,6 +1,6 @@
 # XMC Cleanflight
 
-![Drone](/img/drone-in-grass.jpg)
+![Banner image](/img/banner.jpg)
 
 ## Getting startet
 
