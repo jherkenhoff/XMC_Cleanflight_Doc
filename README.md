@@ -20,3 +20,18 @@
 * FS-i6 Transmitter
 * Flysky FS-A8S i-Bus receiver
 * Tattu 1550mAH 4S LiPo battery pack
+
+
+## Hardware build
+
+
+## Flashing FC Firmware
+ZIP Runterladen, nicht klonen
+
+
+## Configure FC
+Channel mapping
+Motor direcion
+Save nach Dump
+Config file
+ESC Calibration
