@@ -8,9 +8,18 @@ For those unfamiliar with Cleanflight. It is an open source flight-controller fi
 
 In addition to the firmware setup the build of the **Racecopter** drone hardware is shown. Note that the hardware is not coupled to the Cerasus sontroller, so you can choose to build your custom hardware.
 
-# Getting startet
+* [Requirements](#requirements)
+    * [Hardware used in this build](#used-in-this-build)
+* [Cerasus Flight Controller](#cerasus-flight-controller)
+    * [Firmware](#used-in-this-build)
+        * [Download](#download)
+        * [Build](#build)
+        * [Flashing](#flashing)
+    * [Configure](#configure)
+* [Hardware build](#hardware-build)
 
-## Requirements
+<a name="requirements"></a>
+# Requirements
 To follow this guide, you need the following hardware and software:
 * Infineon Cerasus V1.0 flight controller
 * i-Bus receiver
@@ -20,6 +29,7 @@ To follow this guide, you need the following hardware and software:
 
 > **For Linux users:** I managed to get DAVE 4.4.2 running in Wine. You need to install the Segger J-Link tools used for flashing manually using the official [Segger Packages](https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack)
 
+<a name="used-in-this-build"></a>
 ## Hardware used in this build:
 * Custom carbon fiber X4 frame
 * Racerstar [BR2205 2300KV](http://www.racerstar.com/Racerstar-Racing-Edition-2205-BR2205-2300KV-2-4S-Brushless-Motor-Red-CW-or-CCW-for-220-250-RC-Drone-FPV-Racing-p-33.html) brushless motor
@@ -30,21 +40,32 @@ To follow this guide, you need the following hardware and software:
 
 You might as well use any other drone hardware as long as it fulfills the requirements listed in the Requirements section.
 
+<a name="cerasus-flight-controller"></a>
 # Cerasus Flight Controller
 
-## Flashing Firmware
+<a name="firmware"></a>
+## Firmware
 ZIP Runterladen, nicht klonen
 
+<a name="download"></a>
+### Download
 
-## Configure with cleanflight
+<a name="build"></a>
+### Build
+
+<a name="flashing"></a>
+### Flashing
+
+
+<a name="configure"></a>
+## Configure
 Channel mapping
 Motor direcion
 Save nach Dump
 Config file
 ESC Calibration
 
-
-
+<a name="hardware-build"></a>
 # Hardware build
 
 ## Check Motor direction
