@@ -43,6 +43,8 @@ You might as well use any other drone hardware as long as it fulfills the requir
 <a name="cerasus-flight-controller"></a>
 # Cerasus Flight Controller
 
+The *Cerasus* is a flight controller designed by Infineon. It is equipped with a microcontroller from Infineons XMC series (XMC4500 - 32 Bit ARM Cortex M4).
+
 <a name="firmware"></a>
 ## Firmware
 ZIP Runterladen, nicht klonen
