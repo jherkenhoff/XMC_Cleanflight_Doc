@@ -62,8 +62,12 @@ Unzip the contents to a destination of your choice..
 Launch the Dave IDE and choose a workspace folder. (For example a folder named *Workspace* in your home directory. Do not use the just downloaded repository as your workspace.)
 Choose `File >> Import` from the top menu bar. Then choos `Infineon >> Dave Project` and click on *next*.
 
+<img src="/img/import1.png"  width="480">
+
 Browse to the folder you unzipped the contents of the git-repo into.
 The entry *XMC_Cleanflight* should apear in the project list. 
+
+<img src="/img/import2.png" width="480">
 
 Select the *Cerasus* build configuration from the dropdown menu.
 
