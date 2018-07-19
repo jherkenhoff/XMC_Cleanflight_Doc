@@ -47,10 +47,13 @@ The *Cerasus* is a flight controller designed by Infineon. It is equipped with a
 
 <a name="firmware"></a>
 ## Firmware
-ZIP Runterladen, nicht klonen
 
 <a name="download"></a>
 ### Download
+The Firmware for the Cerasus flight controller is located in [this repository](https://github.com/WielandD/XMC_Cleanflight).
+An error accours when opening the project in Dave, when you downloaded the repository using `git clone`. As a workaround you can just download the repository by pressing the `Download Zip` button in github.
+
+<img src="/img/zip.png" width="480">
 
 <a name="build"></a>
 ### Build
