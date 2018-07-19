@@ -55,7 +55,7 @@ An error accours when opening the project in Dave, when you downloaded the repos
 
 <img src="/img/zip.png" width="480">
 
-After downloading unzip the contents to a destination of your choice...
+Unzip the contents to a destination of your choice..
 
 <a name="build"></a>
 ### Build
