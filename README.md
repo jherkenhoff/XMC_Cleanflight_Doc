@@ -73,7 +73,8 @@ After the project has finished loading you need to activate the correct build co
 
 <img src="/img/buildconfig.png" width="500">
 
-Build the firmware by pressing the build button
+Now its time to build the firmware. Click on `Project > Build All` in the top bar to start the building process.
+If everything went well, the console on the bottom of the screen should print *Build Finished*.
 
 <a name="flashing"></a>
 ### Flashing
