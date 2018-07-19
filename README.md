@@ -55,8 +55,15 @@ An error accours when opening the project in Dave, when you downloaded the repos
 
 <img src="/img/zip.png" width="480">
 
+After downloading unzip the contents to a destination of your choice...
+
 <a name="build"></a>
 ### Build
+Launch the Dave IDE and open the Dave project you just downloaded.
+
+Select the *Cerasus* build configuration from the dropdown menu.
+
+Build the firmware by pressing the build button
 
 <a name="flashing"></a>
 ### Flashing
