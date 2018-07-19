@@ -60,7 +60,7 @@ Unzip the contents to a destination of your choice..
 <a name="build"></a>
 ### Build
 Launch the Dave IDE and choose a workspace folder. (For example a folder named *Workspace* in your home directory. Do not use the just downloaded repository as your workspace.)
-Choose `File >> Import` from the top menu bar. Then choos `Infineon >> Dave Project` and click on *next*.
+Choose `File > Import` from the top menu bar. Then choos `Infineon >> Dave Project` and click on *next*.
 
 <img src="/img/import1.png"  width="480">
 
@@ -69,7 +69,9 @@ The entry *XMC_Cleanflight* should apear in the project list.
 
 <img src="/img/import2.png" width="480">
 
-Select the *Cerasus* build configuration from the dropdown menu.
+After the project has finished loading you need to activate the correct build configuration. Rightclick on the *XMC_Cleanflight* entry in the left sidepanel and select `Build Configurations > Set Active > Cerasus` from the context menu.
+
+<img src="/img/buildconfig.png" width="500">
 
 Build the firmware by pressing the build button
 
