@@ -60,6 +60,7 @@ Unzip the contents to a destination of your choice..
 <a name="build"></a>
 ### Build
 Launch the Dave IDE and choose a workspace folder. (For example a folder named *Workspace* in your home directory. Do not use the just downloaded repository as your workspace.)
+Choose `File >> Import` from the top menu bar. Then choos `Infineon >> Dave Project` and click on *next*.
 
 Select the *Cerasus* build configuration from the dropdown menu.
 
