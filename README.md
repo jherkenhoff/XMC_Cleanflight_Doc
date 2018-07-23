@@ -47,13 +47,34 @@ The *Cerasus* is a flight controller designed by Infineon. It is equipped with a
 
 <a name="firmware"></a>
 ## Firmware
-ZIP Runterladen, nicht klonen
 
 <a name="download"></a>
 ### Download
+The Firmware for the Cerasus flight controller is located in [this repository](https://github.com/WielandD/XMC_Cleanflight).
+An error accours when opening the project in Dave, when you downloaded the repository using `git clone`. As a workaround you can just download the repository by pressing the `Download Zip` button in github.
+
+<img src="/img/zip.png" width="480">
+
+Unzip the contents to a destination of your choice..
 
 <a name="build"></a>
 ### Build
+Launch the Dave IDE and choose a workspace folder. (For example a folder named *Workspace* in your home directory. Do not use the just downloaded repository as your workspace.)
+Choose `File > Import` from the top menu bar. Then choos `Infineon >> Dave Project` and click on *next*.
+
+<img src="/img/import1.png"  width="480">
+
+Browse to the folder you unzipped the contents of the git-repo into.
+The entry *XMC_Cleanflight* should apear in the project list. 
+
+<img src="/img/import2.png" width="480">
+
+After the project has finished loading you need to activate the correct build configuration. Rightclick on the *XMC_Cleanflight* entry in the left sidepanel and select `Build Configurations > Set Active > Cerasus` from the context menu.
+
+<img src="/img/buildconfig.png" width="500">
+
+Now its time to build the firmware. Click on `Project > Build All` in the top bar to start the building process.
+If everything went well, the console on the bottom of the screen should print *Build Finished*.
 
 <a name="flashing"></a>
 ### Flashing
