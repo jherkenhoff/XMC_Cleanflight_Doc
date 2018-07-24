@@ -98,9 +98,11 @@ Right after the start of the program it asks you to select the correct Mikrocont
 After clicking Ok, you need to select your hex file you want to download to the mikrocontroller.
 Navigate to your Dave-Workspace you selected when you first started the Dave software. (Remember? In the [Build](#build) section..)
 The hex file should be located in the `[DaveWorkspace] > XMC_Cleanflight > Cerasus > XMC_Cleanflight.hex`.
-After you selected the correct file, there is nothing stopping you from pressing "Flash"!
+After you selected the correct file, there is nothing stopping you from pressing the "Program Device" button!
 
-<img src="/img/flash-start.png" width="400">
+<img src="/img/flash-done.png" width="400">
+
+If everything went right, the latest entry in the log should say "Done".
 
 <a name="configure"></a>
 ## Configure
