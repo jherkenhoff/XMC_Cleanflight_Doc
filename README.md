@@ -91,12 +91,16 @@ If everything went well, the console on the bottom of the screen should print *B
 ### Flashing
 
 Flashing the firmware to the Mikrocontroller is done using the XMC Link debugger. There are multiple options for flashing and even debugging your freshly build firmware on your hardware (for example directly out of Dave or via the Segger GDB Server). Here I want to show one possibility that is quite straight forward.. For that, you need to open the `J-Flash Lite` Programm.
-Right after the start of the program it asks you to select the correct Mikrocontroller. In this case you need to choose the *Infineon XMC45000 1024* entry. 
+Right after the start of the program it asks you to select the correct Mikrocontroller. For the Cerasus flight controller you need to choose the *Infineon XMC45000-1024* entry. Make sure the *Interface* settings match the one on the screenshot.
 
-<img src="/img/flashing-start.png" width="400">
+<img src="/img/flash-start.png" width="400">
 
-If your selections match the screenshot above, you can click ok..
-`[YourDaveWorkspace] > XMC_Cleanflight > Cerasus > XMC_Cleanflight.hex`
+After clicking Ok, you need to select your hex file you want to download to the mikrocontroller.
+Navigate to your Dave-Workspace you selected when you first started the Dave software. (Remember? In the [Build](#build) section..)
+The hex file should be located in the `[DaveWorkspace] > XMC_Cleanflight > Cerasus > XMC_Cleanflight.hex`.
+After you selected the correct file, there is nothing stopping you from pressing "Flash"!
+
+<img src="/img/flash-start.png" width="400">
 
 <a name="configure"></a>
 ## Configure
