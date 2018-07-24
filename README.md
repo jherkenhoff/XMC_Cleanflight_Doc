@@ -49,6 +49,13 @@ Top                                      |  Bottom
 -----------------------------------------|-----------------------------------------
 <img src="/img/fc-top.jpg" width="480">  | <img src="/img/fc-bot.jpg" width="480">
 
+The Cerasus can be configured using the [Cleanflight Configurator](https://github.com/cleanflight/cleanflight-configurator) via USB. (Details in the [Configure](#configure) section)
+You do not need to hook up a battery to configure and play around with the flight-controller, since it can be powered from USB. But don't be afraid to hook up your USB cable when its powered from battery: A diode in the supply rail protects your USB Port from overvoltage..
+
+The Cerasus flight-controller outputs four PWM signals for "communication" with the ESC. The numbering in the picture above (PWM 1 - PWM 4) represents the corresponding motor number. The individual pins are labeled on the PCB.
+
+There are two connectors labeled *RC* on the PCB. Since my receiver came with a 4-Pin plug, I used the 4-Pin connector on the bottom side of the PCB.
+
 <a name="firmware"></a>
 ## Firmware
 
