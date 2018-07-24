@@ -90,6 +90,8 @@ If everything went well, the console on the bottom of the screen should print *B
 <a name="flashing"></a>
 ### Flashing
 
+`[YourDaveWorkspace] > XMC_Cleanflight > Cerasus > XMC_Cleanflight.hex`
+`J-Flash Lite`
 
 <a name="configure"></a>
 ## Configure
